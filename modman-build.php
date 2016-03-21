@@ -41,7 +41,7 @@ class Modman_build {
             $dest = $this->build_path. '/' . $moduleFile;
             try {
                 $this->copy_directory($source, $dest);
-                echo "Copy Successful....";
+                echo "$source Copy Successful....\n";
             } catch (Exception $exc) {
                 echo $exc->getTraceAsString();
             }         
