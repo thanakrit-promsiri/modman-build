@@ -1,0 +1,1 @@
+php %~dp0modman-build.php %*
