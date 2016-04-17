@@ -14,8 +14,12 @@ class Modman_build {
         ".",
         "..",
         ".git",
+		".gitignore",
+		".gitmodules",
         "modman",
-        "README.md"
+       "README.md",
+	   "test"
+		
     );
 
     public function Modman_build() {
